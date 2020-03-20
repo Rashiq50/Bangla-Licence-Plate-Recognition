@@ -11,5 +11,5 @@ canny = s.canny(threshold)
 cv2.imshow("Threshold", threshold)
 cv2.imshow("Canny", canny)
 
-s.process(canny, 1, main, threshold, 0, 0)
+s.process(canny, 1, main, threshold, 1, 1)
 cv2.waitKey(0)
