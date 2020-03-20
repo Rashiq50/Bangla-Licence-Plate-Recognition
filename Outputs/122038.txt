@@ -1,0 +1,9 @@
+|A.\.\Ji1\.14ua1ui1o
+Here we have discussed MSER region based text detection used in Automatic License Plate Recognition (ALPR). Automatic
+recognition of car license plates plays an important role in traffic surveillance systems. Such system which is applied in parking
+areas, highways, bridges and tunnels, can help a human operator and improve overall quality ofa service. Text detection is a process
+of localizing various regions and helps in removing the non-text regions and extraction of the required text. MSER region based
+detection is mainly for detecting the text and which eliminates the non-text region making it efficient for following steps in
+ALPR(segmentation and recognition). MSER detects near about 2600 regions for image and gives greater results in region size, blur,
+viewpoint change, scale change and light changes. The method which detects the character with high percentage accuracy is used
+for text detection.
