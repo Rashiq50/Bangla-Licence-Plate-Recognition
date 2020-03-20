@@ -1,7 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6d42d6cc-d984-4b46-8185-d011cac0fb4e" name="Default Changelist" comment="" />
+    <list default="true" id="6d42d6cc-d984-4b46-8185-d011cac0fb4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/1214442.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/1520824.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/1700283.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/1718030.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/1834686.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/1845090.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/1914935.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/2443550.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/2521834.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/2979890.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/3101122.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/3964852.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/3971263.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/4037121.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/4423158.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/4861456.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/4896726.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/5343635.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/5903751.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/5982871.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/6404337.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/6454530.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/6488352.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/6694401.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/7044189.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/7058392.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/7638776.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/8187259.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/8359749.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/8691499.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/8719718.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/8805099.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/9155984.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/9187511.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/9237105.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/9252865.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/9306258.driveupload" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.tmp.drivedownload/9450069.driveupload" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.drivedownload/1421990.driveupload" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.drivedownload/3987363.driveupload" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.tmp.drivedownload/9667866.driveupload" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/volvo.jpg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,16 +60,19 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Automatic-Bangla-Licence-Plate-Recognition" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Z21vl5L39BTqb7M6IVVFO3kWuu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -163,6 +211,9 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="462" y="159" key="FileChooserDialogImpl" timestamp="1584532638165">
       <screen x="0" y="0" width="1366" height="768" />
@@ -204,9 +255,9 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="184" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1584614118999" />
-    <state x="384" y="207" key="com.intellij.ide.util.TipDialog" timestamp="1584636269824">
+    <state x="384" y="207" key="com.intellij.ide.util.TipDialog" timestamp="1584709611400">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="384" y="207" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584636269824" />
+    <state x="384" y="207" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584709611400" />
   </component>
 </project>
