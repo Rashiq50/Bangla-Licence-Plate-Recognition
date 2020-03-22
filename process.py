@@ -7,10 +7,15 @@ def getimage(path):
     return image
 
 
-def resize(image):
-    cv2.resize(image, (640, 480))
+def resize(image,w,h):
+    cv2.resize(image, (w, h))
     return image
 
+
+def equalize(image, clip, grid):
+    clahe = cv2.createCLAHE(clipLimit=clip, tileGridSize=(grid, grid))
+    cl1 = clahe.apply(image)
+    return cl1
 
 def grayscale(image, b, g, r):
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
@@ -18,6 +23,7 @@ def grayscale(image, b, g, r):
     # standard coefficients = [0.114, 0.587, 0.299]
     m = np.array(coefficients).reshape((1, 3))
     blue = cv2.transform(image, m)
+    #equ = cv2.equalizeHist(blue)
     return blue
 
 

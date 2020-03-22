@@ -14,15 +14,28 @@ import matplotlib.pyplot as plt
 
 #cv2.waitKey(0)
 
-image=cv2.imread("lc//2.jpg")
+image=cv2.imread("lc//10.jpg")
+image = cv2.resize(image, (960, 720))
 
-#hist= cv2.calcHist(image,[0],None,[256],[0,256])
-#plt.hist(image.ravel(),256,[0,256]); plt.show()
-cv2.imshow("input",image)
-color = ('b','g','r')
-for i,col in enumerate(color):
-    histr = cv2.calcHist([image],[i],None,[256],[0,256])
-    plt.plot(histr,color = col)
-    plt.xlim([0,256])
-plt.show()
+
+def equalize_light(image, limit=3, grid=(7, 7), gray=False):
+
+    if len(image.shape) == 2:
+        image = cv2.cvtColor(image, cv2.COLOR_GRAY2BGR)
+        gray = True
+
+    clahe = cv2.createCLAHE(clipLimit=limit, tileGridSize=grid)
+    lab = cv2.cvtColor(image, cv2.COLOR_BGR2LAB)
+    l, a, b = cv2.split(lab)
+
+    cl = clahe.apply(l)
+    limg = cv2.merge((cl, a, b))
+
+    image = cv2.cvtColor(limg, cv2.COLOR_LAB2BGR)
+    if gray:
+        image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+    return np.uint8(image)
+eq = equalize_light(image)
+cv2.imshow("asd",eq)
 cv2.waitKey(0)

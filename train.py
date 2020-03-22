@@ -5,6 +5,7 @@ import cv2
 import random
 import pickle
 import tensorflow as tf
+from tensorflow import keras
 
 DATADIR = "Dataset"
 CATEGORIES = ["0", "1"]
@@ -44,3 +45,10 @@ pickle_out.close()
 
 pickle_in = open("X.pickle", "rb")
 X = pickle.load(pickle_in)
+
+pickle_in = open("Y.pickle", "rb")
+Y = pickle.load(pickle_in)
+
+X = X/255.0
+#model = Sequential()
+
