@@ -60,7 +60,7 @@ def process(canny, para, main, thresh, write, show):
             cv2.rectangle(main, (x, y), (x + w, y + h), (0, 0, 255), 2)
             if show == 1:
                 roi = thresh[y:y + h, x:x + w]
-                a = cv2.resize(roi, (100, 90))
+                a = cv2.resize(roi, (90, 90))
                 # roi2 = thresh[y:(y+h), x:x+w]
                 cv2.imshow("crop" + str(i), a)
             if write==1:
