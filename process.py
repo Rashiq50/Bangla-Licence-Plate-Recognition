@@ -23,7 +23,6 @@ def grayscale(image, b, g, r):
     # standard coefficients = [0.114, 0.587, 0.299]
     m = np.array(coefficients).reshape((1, 3))
     blue = cv2.transform(image, m)
-    #equ = cv2.equalizeHist(blue)
     return blue
 
 
@@ -37,6 +36,11 @@ def threshold(image, para1, para2):
     return thresh
 
 
+def adaptive(image, block, c):
+    ad = cv2.adaptiveThreshold(image, 255, cv2.ADAPTIVE_THRESH_GAUSSIAN_C, cv2.THRESH_BINARY_INV, block, c)
+    return ad
+
+
 def canny(image):
     canny = cv2.Canny(image, 0, 0)
     return canny
@@ -46,6 +50,7 @@ def canny(image):
 #cv2.waitKey(0)
 
 
+# noinspection PyShadowingNames,SpellCheckingInspection
 def process(canny, para, main, thresh, write, show):
     if para == 1:
         contours, hier = cv2.findContours(canny, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
@@ -61,19 +66,18 @@ def process(canny, para, main, thresh, write, show):
             if show == 1:
                 roi = thresh[y:y + h, x:x + w]
                 a = cv2.resize(roi, (90, 90))
-                # roi2 = thresh[y:(y+h), x:x+w]
                 cv2.imshow("crop" + str(i), a)
             if write==1:
                 cv2.imwrite("Dataset//crop" + str(i) + ".png", a)
             i = i + 1
             print("crop" + str(i) + "=")
             print(cv2.contourArea(c))
+            print("\n")
             cv2.waitKey(100)
     cv2.imshow("main", main)
     if write == 1:
         cv2.imwrite("Dataset//marked.png", main)
     cv2.waitKey(0)
-
 #cv2.imshow("canny new",canny)
 #cv2.imshow("lap", lp)
 #cv2.imshow("erosion", erosion)
